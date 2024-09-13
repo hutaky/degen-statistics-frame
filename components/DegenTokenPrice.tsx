@@ -114,7 +114,7 @@ export function DegenTokenPrice({
           fontSize: "36px",
         }}
       >
-        Stats
+        DEGEN Stats
       </h1>
 
       <div
@@ -126,7 +126,7 @@ export function DegenTokenPrice({
         }}
       >
         <DegenStats
-          title="Token price (USD)"
+          title="DEGEN price (USD)"
           value={formatter(tokenPriceUsd)}
         />
         <DegenStats title="Volume 24hr (USD)" value={formatter(volumeUsd)} />
