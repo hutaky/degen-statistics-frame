@@ -41,7 +41,7 @@ app.frame("/", async (c) => {
           `https://warpcast.com/~/compose?embeds[]=${process.env.HOST_URL}`
         )}
       >
-        Share
+        Share it
       </Button.Redirect>,
     ],
   });
