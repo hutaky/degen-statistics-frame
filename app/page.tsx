@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 export async function generateMetadata(): Promise<Metadata> {
   const frameTags = await getFrameMetadata(`${process.env.HOST_URL}/api`);
   return {
-    title: "Degen token stats",
-    description: "Degen token stats",
+    title: "Degen token price and volume checker",
+    description: "Degen token price and volume checker",
     other: frameTags,
   };
 }
@@ -13,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function Home() {
   return (
     <h2>
-      Check out the degen token stats <a href="https://warpcast.com/magiziz/0x4e827ca4">here</a>
+      Detailed information <a href="https://www.coingecko.com/hu/coins/degen-base">here</a>
     </h2>
   );
 }
